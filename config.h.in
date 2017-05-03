@@ -1,5 +1,15 @@
 /* config.h --- configuration file */
 
+#define PROGRAM_MAJOR       @PROGRAM_MAJOR@
+#define PROGRAM_MINOR       @PROGRAM_MINOR@
+#define PROGRAM_BUILD       @PROGRAM_BUILD@
+
+#define PROGRAM_NAME        "@PROGRAM_NAME@"
+#define PROGRAM_AUTHORS     "@PROGRAM_AUTHORS@"
+#define PROGRAM_VERSION     "@PROGRAM_MAJOR@.@PROGRAM_MINOR@.@PROGRAM_BUILD@"
+#define PROGRAM_INFO \
+    PROGRAM_NAME " " PROGRAM_VERSION " by " PROGRAM_AUTHORS
+
 #cmakedefine HAVE_STPCPY
 #cmakedefine HAVE_STRCASECMP
 #cmakedefine HAVE_STRNCASECMP

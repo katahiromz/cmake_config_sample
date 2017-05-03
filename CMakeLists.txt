@@ -9,6 +9,13 @@ cmake_minimum_required(VERSION 2.4)
 # project name and language
 project(cmake_config_sample C)
 
+# project info
+set(PROGRAM_MAJOR 0)
+set(PROGRAM_MINOR 0)
+set(PROGRAM_BUILD 0)
+set(PROGRAM_NAME "cmake_config_sample")
+set(PROGRAM_AUTHORS "Katayama Hirofumi MZ")
+
 # set output directory (build/)
 set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/build)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
