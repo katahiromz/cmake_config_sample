@@ -1,0 +1,6 @@
+/* config.h --- configuration file */
+
+#cmakedefine HAVE_STPCPY
+#cmakedefine HAVE_STRCASECMP
+#cmakedefine HAVE_STRNCASECMP
+#cmakedefine HAVE_STRINGS_H
