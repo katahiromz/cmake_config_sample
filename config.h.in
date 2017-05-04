@@ -14,3 +14,5 @@
 #cmakedefine HAVE_STRCASECMP
 #cmakedefine HAVE_STRNCASECMP
 #cmakedefine HAVE_STRINGS_H
+#cmakedefine HAVE_LONG_LONG
+#cmakedefine HAVE___INT64

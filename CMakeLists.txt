@@ -27,6 +27,11 @@ check_function_exists(strcasecmp HAVE_STRCASECMP)
 check_function_exists(strncasecmp HAVE_STRNCASECMP)
 check_function_exists(utime HAVE_UTIME)
 
+# check types
+include(CheckTypeSize)
+check_type_size("long long" HAVE_LONG_LONG)
+check_type_size(__int64 HAVE___INT64)
+
 # check stpcpy
 include(CheckCSourceCompiles)
 check_c_source_compiles("
